@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./styles/app.scss";
-import Player from './components/Player';
-import Songs from './components/Songs'
+import App from './App'
+
 
 ReactDOM.render(
   <div className="app"> 
-   <Songs />
-   <Player/>
+   <App />
   </div>,
   document.getElementById('root')
 );
